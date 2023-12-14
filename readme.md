@@ -8,7 +8,8 @@ During this lab we will be creating a full stack portfolio page using Express an
 
 ## Setup
 
-- Create an empty folder to house this project `express_react_lab` (this folder should NOT be a GIT repo)
+- Fork and clone this repo
+- cd into Express_React_Portfolio_Lab
 
 - Inside this folder create a folder for our backend app called `backend` this will house our express application
 
@@ -20,7 +21,7 @@ During this lab we will be creating a full stack portfolio page using Express an
 - The end result should be the following folder structure
 
 ```
-- /express_react_lab
+- /Express_React_Portfolio_Lab
   > /backend
   > /frontend
 ```
