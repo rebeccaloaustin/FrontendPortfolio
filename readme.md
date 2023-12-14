@@ -170,22 +170,6 @@ app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 web: npm start
 ```
 
-#### Creating the git repo
-
-- make sure your terminal is inside the "backend" folder
-
-- create a new git repo `git init`
-
-- add all files to staging `git add .`
-
-- commit the files `git commit -m "backend is done"`
-
-- create a new EMPTY repo on github.com and get the remote url
-
-- connect the remote to your local repo `git remote add origin URL`, make sure to replace "URL" with the URL of your github.com repo
-
-- push up your changes `git push origin BRANCH` make sure to replace "BRANCH" with your current branch name which can be retrieved by running `git branch`
-
 #### Deploying to Heroku
 
 - Head over to heroku and create a new project
