@@ -44,13 +44,14 @@ During this lab we will be creating a full stack portfolio page using Express an
 
 3. nodemon: development tool to auto restart our server whenever
 
-- update the package.json with the following scripts
+- update the package.json with the following main and scripts
 
 ```json
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
-  },
+},
 ```
 
 #### Our Data
