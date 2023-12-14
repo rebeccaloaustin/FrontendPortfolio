@@ -158,7 +158,7 @@ app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
 - go to `localhost:4000/about` and make sure you see your about info as json
 
-- Our Backend is complete, now to deploy.
+- Our Backend is complete, now to deploy on Render.
 
 ## Building the Frontend
 
