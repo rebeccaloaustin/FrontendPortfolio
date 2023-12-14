@@ -112,6 +112,7 @@ Now we can make our server, here is the overview of what we will do.
 
 ```js
 // Import Dependencies
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
