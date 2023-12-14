@@ -160,38 +160,6 @@ app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
 - Our Backend is complete, now to deploy.
 
-## Express app deployment
-
-#### Creating the Procfile
-
-- create a file called `Procfile`
-
-```
-web: npm start
-```
-
-#### Deploying to Heroku
-
-- Head over to heroku and create a new project
-
-- under the deploy section, connect your github repo
-
-- enable automatic deploys
-
-- then under manual deploys hit the "deploy" button
-
-- when its done, click the "open app" button in the upper right of the dashboard
-
-- go to `HEROKU_URL/` make sure you see "Hello World"
-
-- go to `HEROKU_URL/projects` make sure you see your projects as JSON
-
-- go to `HEROKU_URL/about` make sure you see your about info as JSON
-
-congrats, your simple backend API is complete and deployed! You may shut down any local backend servers you have running.
-
-If you have any issues with Heroku refer to [this guide](https://tuts.alexmercedcoder.com/2021/4/deploying_node_heroku/)
-
 ## Building the Frontend
 
 Make sure to keep your Heroku url handy, we'll need it in a moment.
@@ -485,27 +453,12 @@ export default Projects;
 
 Once everything seems working, do the following.
 
-- create a file called `netlify.toml` in the `frontend` folder with the following
-
-```toml
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-```
-
-- There should already be a local repo based out of the frontend folder (create react app creates one by default). If not, make one.
 
 - add all files to staging `git add .`
 
 - commit `git commit -m "frontend complete"`
 
-- create a new empty repository on github and get the url
-
-- connect it to your local repository `git remote add origin URL` make sure to replace URL with your repo URL
-
-- push up the code `git push origin BRANCH` make sure to replace BRANCH with your active branch, you can confirm what it is with the command `git branch`
-
-- head over to netlify and create a new project based on your frontend repo, it should auto detect the build command and deploy.
+- head over to netlify and create a new project based on your frontend, it should auto detect the build command and deploy.
 
 - if you run into any issues refer to this [guide for deployment](https://tuts.alexmercedcoder.com/2021/1/deployreact/)
 
