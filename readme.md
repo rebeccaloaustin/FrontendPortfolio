@@ -2,10 +2,6 @@
 
 During this lab we will be creating a full stack portfolio page using Express and React to see how you can create a full stack project using a simple API build with express and a frontend application with React.
 
-- [Here is a Repo with a final version for reference](https://git.generalassemb.ly/AlexMerced/Express-React-Portfolio-Reference-Code)
-
-**NOTE** While the above repo has the backend and frontend folder in one repo, to deploy the backend and frontend project MUST be in separate repos, follow the direction carefully regarding where repos are created and deployment.
-
 ## Setup
 
 - Fork and clone this repo
