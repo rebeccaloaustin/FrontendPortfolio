@@ -9,10 +9,9 @@ During this lab we will be creating a full stack portfolio page using Express an
 
 - Inside this folder create a folder for our backend app called `backend` this will house our express application
 
-- Then we will generate a react project for a our frontend, either of these two commands should do the trick (the command should be run from the express_react_folder so make sure your terminal is in that folder)...
+- Then we will generate a react project for a our frontend (the command should be run from the express_react_folder so make sure your terminal is in that folder)...
 
   - `npx create-react-app frontend`
-  - `npm init @vitejs/app frontend --template react`
 
 - The end result should be the following folder structure
 
