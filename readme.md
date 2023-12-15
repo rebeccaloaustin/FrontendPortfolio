@@ -286,7 +286,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={Home} />
+        <Route exact path="/" element={<Home />}/>
         <Route path="/projects" element={<Projects URL={URL} />} />
         <Route path="/about" element={<About URL={URL} />} />
       </Routes>
@@ -370,7 +370,9 @@ function About(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getAboutData(), []);
+  useEffect(() => {
+    getAboutData()
+  }, [])
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
@@ -386,6 +388,7 @@ function About(props) {
 }
 
 export default About;
+
 ```
 
 ## Projects
@@ -418,14 +421,16 @@ function Projects(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => {
+    getProjectsData();
+  }, []);
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return projects.map((project) => (
-      <div>
+    return projects.map((project, index) => (
+      <div key={index}>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img src={project.image} alt={project.name} />
         <a href={project.git}>
           <button>Github</button>
         </a>
