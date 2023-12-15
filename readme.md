@@ -254,9 +254,9 @@ export default Projects;
 Here is the plan
 
 - import all our components
-- import the Route and Switch component from Router
+- import the Route and Routes component from Router
 - Setup our routes
-- create a variable called URL with our heroku url
+- create a variable called URL with our Render URL
 - pass the URL as a prop to about and projects so they can make a call to our API
 
 `src/App.js`
