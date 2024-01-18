@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function About(props) {
   // create state to hold about data
-  const [about, setAbout] = useState(null);
+  const [about, setAbout] = useState({});
 
   // create function to make api call
   const getAboutData = async () => {
