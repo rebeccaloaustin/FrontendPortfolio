@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -7,9 +7,9 @@ const Home = () => {
       <h2 className="aboutTitle">REBECCA AUSTIN</h2>
       <h3 className="aboutMe">Full-Stack Web Developer</h3>
       <div className="links">
-        <a href="/projects" className='projectsLink'>PROJECTS</a>
-        <a href="/about" className='aboutLink'>ABOUT</a>
-        <a href="/contact" className='contactLink'>CONTACT</a>
+        <Link to="/projects" className='projectsLink'>PROJECTS</Link>
+        <Link to="/about" className='aboutLink'>ABOUT</Link>
+        <Link to="/contact" className='contactLink'>CONTACT</Link>
       </div>
     </div>
   );
