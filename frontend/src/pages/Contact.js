@@ -10,7 +10,7 @@ function Contact(props) {
   const githubUrl = "https://github.com/rebeccaloaustin";
   
   return (
-      <div>
+      <div className="contactPage">
       <h1 className="hello">Hello.</h1>
       <h2 className="contactBody" id="contactParagraph" >
         Reach out and let's build something incredible together! Whether you
