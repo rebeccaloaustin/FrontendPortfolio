@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../../src/App.css";
+import { Link} from "react-router-dom";
 
-function Header() {
+
+function Header(props) {
   return (
-    <header >
+    <header className="header">
       <Link to="/" className="navBar">
         HOME
       </Link>

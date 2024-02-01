@@ -1,8 +1,15 @@
 body {
-  background-color: #ece7e1;
   animation: fadeIn 5s;
   margin:0;
   overflow-x: hidden;
+  background-color: #ece7e1;
+}
+.home {
+  background-color: #ece7e1;
+  
+}
+.projectPage{
+  background-color: #ece7e1;
 }
 
 header {
@@ -20,10 +27,10 @@ header {
   letter-spacing: 0.15em;
   line-height: 1.2em;
   text-decoration: none;
-  color: black;
-  margin: 8vh 2vh;
+  color:#1a1818;
+  margin: 8vh 1vw;
   transform: rotate(-90deg);
-  padding: 10px; 
+  display: block; padding: 10px
 }
 
 .navBar:hover{
@@ -45,13 +52,14 @@ header {
 }
 
 .links {
-  font-family: "DM Serif Display", serif;
+  font-family: 'Kalnia', serif;
   color: black;
-  font-size: 20vh;
+  font-size: 17vh;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: -65vh;
+  margin-top: -60vh;
   margin-left: 45%;
 
   @media (max-width: 768px) {
@@ -66,7 +74,7 @@ header {
 .aboutLink,
 .contactLink {
   text-decoration: none;
-  color: black;
+  color: #1a1818;
   margin-bottom: 10px;
 }
 
@@ -114,8 +122,136 @@ header {
   }
 }
 
-.contact {
+.strikeThrough {
+  color: transparent;
+  font-family: arial;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  line-height: 1.2em;
+  text-decoration: none;
+  margin: 7vh -1.5vh;
+  transform: rotate(-90deg);
+  text-decoration: line-through black;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 1vh;
+    margin-top: 9vh;
+    transform: none;
+  }
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  font-family: arial;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.15em;
   color: black;
+  transform: rotate(-90deg);
+  margin-left: 1vw;
+  margin-top: 8vh;
+  width: fit-content;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    transform: none;
+    margin-left: 1vh;
+    margin-top: 30vh;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.aboutPageTitle {
+  font-family: "DM Serif Display", serif;
+  font-size: 25vh;
+  font-weight:300;
+  position:relative;
+  left:20%;
+  margin-top: -30vh;
+  @media (max-width: 768px) {
+    text-align: center;
+    font-size: 7vh;
+    margin-top: -7vh;
+    position: relative;
+    left: -21%;
+  }
+}
+
+.aboutBody {
+  font-family: Arial;
+  letter-spacing: 0.15em;
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.5;
+  position: relative;
+  left:23%;
+  @media (max-width: 768px) {
+    position: relative;
+    left: 5%;
+    min-width: 85vw;
+  }
+}
+#bio1{
+ margin-top: 5vh; 
+margin-bottom: 5vh;
+}
+#bio2{
+  margin-bottom: -20vh;
+}
+.aboutIntro{
+  font-family: 'Kalnia', serif;
+  font-size: 2.5vh;
+  position: relative;
+  left: 23%;
+  margin-top: -77vh;
+  @media (max-width: 768px) {
+    margin-top:-10vh;
+    margin-right: 15vh;
+    position: relative;
+    left: 10%;
+    max-width: 60%;
+  }
+}
+
+
+.headshot {
+  height: 55vh;
+  position: relative;
+  top: 6vh;  
+  right: -60%; 
+  transform: translate(0, -50%);
+  outline: .99px solid white; 
+outline-offset: -10px;
+border-radius: 50%;
+@media (max-width: 768px) {
+  text-align: center;
+  margin-top: -10vh;
+  height: 15vh;
+  position: relative;
+  left: 62%;
+  outline-offset: 0px;
+border-radius: 50%;
+}
+}
+
+.contact {
+  color: #1a1818;
 }
 
 .contact:hover {
@@ -124,6 +260,7 @@ header {
 
 .hello {
   font-family: "DM Serif Display", serif;
+  color: #1a1818;
   font-size: 23vh;
   font-weight: 300;
   margin-left: 32vh;
@@ -142,6 +279,21 @@ header {
   letter-spacing: 0.15em;
   font-size: 13px;
   max-width: 400px;
+  color: #1a1818
+}
+#contactResume{
+    margin-left: 32vh;
+    margin-top: 5vh;
+    @media (max-width: 768px) {
+      margin-left: 4%;
+    margin-top: 0;
+    text-align: center;
+    }
+  }
+
+
+#resume:hover{
+  text-decoration: line-through;
 }
 
 #contactParagraph{
@@ -169,31 +321,8 @@ margin-top:-11vh;
     margin-left: 4%;
     margin-top: 0;
     text-align: center;
-    margin-bottom: 43vh;
   }
 }
-.strikeThrough {
-  color: transparent;
-  font-family: arial;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  line-height: 1.2em;
-  text-decoration: none;
-  margin: 7vh -1.5vh;
-  transform: rotate(-90deg);
-  text-decoration: line-through black;
-
-  @media (max-width: 768px) {
-    flex-direction: row;
-    align-items: flex-start;
-    margin-left: 1vh;
-    margin-top: 9vh;
-    transform: none;
-  }
-}
-
 .projectNames {
   font-family: 'Kalnia', serif;
   letter-spacing: 0.1em;
@@ -318,113 +447,6 @@ text-decoration: line-through;
     font-size: 4vh;
   }
 }
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
-  font-family: arial;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  color: black;
-  transform: rotate(-90deg);
-  margin-left: -180vh;
-  margin-top: -180vh;
-
-  @media (max-width: 768px) {
-    flex-direction: row;
-    align-items: center;
-    transform: none;
-    margin-left: 1vh;
-    margin-top: 30vh;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.aboutPageTitle {
-  font-family: "DM Serif Display", serif;
-  font-size: 25vh;
-  font-weight:300;
-  position:relative;
-  left:20%;
-  margin-top: -30vh;
-  @media (max-width: 768px) {
-    text-align: center;
-    font-size: 7vh;
-    margin-top: -7vh;
-    position: relative;
-    left: -21%;
-  }
-}
-
-.aboutBody {
-  font-family: Arial;
-  letter-spacing: 0.15em;
-  font-size: 14px;
-  max-width: 400px;
-  line-height: 1.5;
-  position: relative;
-  left:23%;
-  @media (max-width: 768px) {
-    position: relative;
-    left: 5%;
-    min-width: 85vw;
-  }
-}
-#bio1{
- margin-top: 5vh; 
-margin-bottom: 5vh;
-}
-#bio2{
-  margin-bottom: -20vh;
-}
-.aboutIntro{
-  font-family: 'Kalnia', serif;
-  font-size: 2.5vh;
-  position: relative;
-  left: 23%;
-  margin-top: -77vh;
-  @media (max-width: 768px) {
-    margin-top:-10vh;
-    margin-right: 15vh;
-    position: relative;
-    left: 10%;
-    max-width: 60%;
-  }
-}
-
-
-.headshot {
-  height: 55vh;
-  position: relative;
-  top: 6vh;  
-  right: -60%; 
-  transform: translate(0, -50%);
-  outline: .99px solid white; 
-outline-offset: -10px;
-border-radius: 50%;
-@media (max-width: 768px) {
-  text-align: center;
-  margin-top: -10vh;
-  height: 15vh;
-  position: relative;
-  left: 62%;
-  outline-offset: 0px;
-border-radius: 50%;
-}
-}
-
-
-
 
 
 

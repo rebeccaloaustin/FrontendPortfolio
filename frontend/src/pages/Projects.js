@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../App.css";
+import "../../src/App.css";
 
 function Projects(props) {
   // create state to hold projects
