@@ -50,7 +50,7 @@ header {
     align-items: flex-start;
     margin-left: 1vh;
     margin-top: -6vh;
-
+    transform: rotate(360deg);
   }
 
   .navBar {
