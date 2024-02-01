@@ -8,7 +8,7 @@
       "tech": "Frontend - React, React Router DOM, Bootstrap, Stripe for payment processing Backend - Node.js with Express, MongoDB as the database, Mongoose for MongoDB object modeling, Bcrypt and Bcryptjs for password hashing, JSON Web Token for user authentication, Cors for handling Cross-Origin Resource Sharing, Body-parser for parsing incoming request bodies, Formidable for handling form data, and Validator for data validation."
     },
     {
-      "name": "Bon Bon Voyage Blog",
+      "name": "Bon Bon Voyage Blogs",
       "live": "https://bon-bon-voyage-blog.onrender.com/",
       "git": "https://github.com/rebeccaloaustin/Bon-Bon-Voyage-Blog",
       "image": "https://i.imgur.com/z6Krgfq.jpeg",
