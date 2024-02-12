@@ -105,7 +105,7 @@ header {
   margin-top: 25vh;
 
   @media (max-width: 768px) {
-    margin-left: 6vw;
+    margin-left: 2vw;
     margin-top: 0;
     text-align: center;
   }
@@ -401,14 +401,14 @@ text-decoration: line-through;
   font-weight: 300;
   font-style: italic;
   max-width: 27%;
-  margin-left: 11%;
+  margin-left: 10.5%;
   position: relative;
   margin-top: -21%;
   margin-bottom: 17%;
 
   @media (max-width: 768px) {
     transform: none;
-    max-width: 94%;
+    min-width: 93%;
     left: -4%;
   }
 }
@@ -426,7 +426,7 @@ text-decoration: line-through;
   @media (max-width: 768px) {
     transform: none;
     max-width: 94%;
-    left: -4%;
+    left: -2%;
     margin-top: 6%;
   }
 
