@@ -99,15 +99,13 @@ header {
   font-size: 17px;
   letter-spacing: 0.15em;
   line-height: 1.2em;
-  display: flex;
-  align-content: flex-start;
+  display: flex-start;
   margin-left: 25vh;
   margin-top: 25vh;
 
   @media (max-width: 768px) {
-    margin-left: 2vw;
+    margin-left: 5.5vw;
     margin-top: 0;
-    text-align: center;
   }
 }
 
@@ -220,8 +218,8 @@ header {
   left:23%;
   @media (max-width: 768px) {
     position: relative;
-    left: 5%;
-    min-width: 85vw;
+    left: 9%;
+    max-width: 80vw;
   }
 }
 #bio1{
@@ -243,7 +241,7 @@ margin-bottom: 5vh;
     margin-right: 15vw;
     position: relative;
     left: 10vw;
-    max-width: 60%;
+    max-width: 50%;
   }
 }
 
@@ -409,7 +407,7 @@ text-decoration: line-through;
   @media (max-width: 768px) {
     transform: none;
     min-width: 93%;
-    left: -4%;
+    margin-left: 5%;
   }
 }
 
@@ -425,9 +423,9 @@ text-decoration: line-through;
   margin-bottom: 24%;
   @media (max-width: 768px) {
     transform: none;
-    max-width: 94%;
-    left: -2%;
+    min-width: 94%;
     margin-top: 6%;
+    margin-left: 5%;
   }
 
 }

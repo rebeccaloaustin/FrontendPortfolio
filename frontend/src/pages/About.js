@@ -25,7 +25,7 @@ function About(props) {
     <div className="aboutPage">
       <h2 className="aboutPageTitle">About</h2>
        <img src={about.headshot} className="headshot"/>
-       <h3 className="aboutIntro">I'm Rebecca. Creative. Problem Solver. </h3>
+       <h3 className="aboutIntro">I'm Rebecca. Creative. Solution seeker. </h3>
       <p className="aboutBody" id="bio1" >{about.bio1}</p>
       <p className="aboutBody" id="bio2" >{about.bio2}</p>
     </div>
