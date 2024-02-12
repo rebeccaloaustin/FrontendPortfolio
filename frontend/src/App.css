@@ -460,6 +460,17 @@ text-decoration: line-through;
   }
 }
 
-
+.comingSoon{
+  text-align: center;
+  font-size: 18px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  @media (max-width: 768px) {
+    font-size: 14px;
+    max-width: 70vw;
+    margin-left: 14vw;
+  }
+}
 
 
