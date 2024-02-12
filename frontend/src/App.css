@@ -139,15 +139,24 @@ header {
   line-height: 1.2em;
   text-decoration: none;
   margin: 7vh -1.5vh;
-  transform: rotate(-90deg);
   text-decoration: line-through black;
+
+ 
+  @media (min-width: 769px) {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: -0.7vw;
+    margin-top: 9vh;
+    transform: rotate(-90deg);
+  }
+
 
   @media (max-width: 768px) {
     flex-direction: row;
     align-items: flex-start;
     margin-left: 2vw;
     margin-top: 9vh;
-    transform: rotate(360deg);
+    transform: none;
   }
 }
 
@@ -400,7 +409,6 @@ text-decoration: line-through;
   @media (max-width: 768px) {
     transform: none;
     max-width: 94%;
-    position: relative;
     left: -4%;
   }
 }
@@ -418,7 +426,6 @@ text-decoration: line-through;
   @media (max-width: 768px) {
     transform: none;
     max-width: 94%;
-    position: relative;
     left: -4%;
     margin-top: 6%;
   }
