@@ -99,10 +99,8 @@ header {
   font-size: 17px;
   letter-spacing: 0.15em;
   line-height: 1.2em;
-  display: flex-start;
-  margin-left: 25vh;
+  margin-left: 13.3vw;
   margin-top: 25vh;
-
   @media (max-width: 768px) {
     margin-left: 5.5vw;
     margin-top: 0;
