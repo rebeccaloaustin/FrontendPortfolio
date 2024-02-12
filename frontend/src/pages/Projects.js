@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../../src/App.css";
+import data from "../projects.json"
 
 function Projects(props) {
   // create state to hold projects
@@ -25,7 +26,7 @@ function Projects(props) {
     return (
       <div>
         <h1 className="projectTitle">Projects</h1>
-        {projects.map((project, index) => (
+        {data.map((project, index) => (
           <div key={index}>
             <h1 className="projectNames">{project.name}</h1>
             <img
