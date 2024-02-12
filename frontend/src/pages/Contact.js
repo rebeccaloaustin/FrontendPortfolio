@@ -19,7 +19,7 @@ function Contact(props) {
       </h2>
       <p className="contactBody" id="contactEmail" >Email: <a className="contact" href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
       <p className="contactBody" id="contactInternet">On the Internet: <a className="contact" href={linkedinUrl} target="_blank" rel="noopener noreferrer">LinkedIn</a> / <a className="contact" href={githubUrl} target="_blank" rel="noopener noreferrer">Github</a></p>
-      <p className="contactBody" id="contactResume"> Experience: <a href="https://docs.google.com/document/d/1D-V-rT-JcfNm7OP54177FIpfl7eSRvoAPyUTzd2ALzg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact" id="resume">Resume</a> </p>
+      <p className="contactBody" id="contactResume"> Experience: <a href="https://docs.google.com/document/d/1D-V-rT-JcfNm7OP54177FIpfl7eSRvoAPyUTzd2ALzg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact" id="resume">Résumé</a> </p>
     </div>
   );
 }
