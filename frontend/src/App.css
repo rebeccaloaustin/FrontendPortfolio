@@ -405,7 +405,7 @@ text-decoration: line-through;
   @media (max-width: 768px) {
     transform: none;
     min-width: 93%;
-    margin-left: 5%;
+    margin-left: 1%;
   }
 }
 
