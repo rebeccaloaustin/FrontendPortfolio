@@ -19,7 +19,7 @@
       "name": "Frame of Mind",
       "live": "coming soon",
       "git": "https://github.com/rebeccaloaustin/frame-of-mind",
-      "image": "https://imgur.com/Fwn66Qa",
+      "image": "https://i.imgur.com/At4vl93.png",
       "description": "Frame-of-Mind is an immersive Django web application designed to deepen your appreciation for art. Discover, explore, and engage with your favorite artists and artworks, allowing you to broaden your perspective and change your frame of mind. The application seamlessly integrates One-to-Many Relationships between artists and artworks, empowering users to curate their collections and delve into the captivating world of artistic expression.",
       "tech": "Django, Python, HTML, CSS"
     },
