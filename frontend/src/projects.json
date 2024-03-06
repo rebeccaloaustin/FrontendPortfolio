@@ -1,5 +1,13 @@
 [
     {
+      "name": "Notflix",
+      "live": "https://notflix-d10a8.web.app/",
+      "git": "https://github.com/rebeccaloaustin/Notflix",
+      "image": "https://private-user-images.githubusercontent.com/141693053/309487447-d6f235d5-c766-467e-af50-e8dbd65e92fa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk3NjQ4MTMsIm5iZiI6MTcwOTc2NDUxMywicGF0aCI6Ii8xNDE2OTMwNTMvMzA5NDg3NDQ3LWQ2ZjIzNWQ1LWM3NjYtNDY3ZS1hZjUwLWU4ZGJkNjVlOTJmYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwNlQyMjM1MTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MjU3ZTBjZDQ0Nzg5YzRhNTBmYWMwMTU4MGI3MzkyMDlhM2ZlZDdkMDNlN2FjNmQ4ZDA5NGMyZjE4NWIxMzI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lpSLH_XLKlY6iDLzSvIxaqM5DqPyR9pTc7G1vX7fKn4",
+      "description": "This is a Netflix clone project built using React, JavaScript, Vite, Tailwind CSS, TMDB API, and Firebase for user authentication, database management, and hosting. Notflix aims to replicate some of the core functionalities of Netflix, allowing users to browse movies, view summaries, add movies to their favorites and watch later lists, and manage their lists. ",
+      "tech": "React, Firebase, TMDB API: The Movie Database API for fetching movie data, Axios, React Icons, React Router DOM, React YouTube, Tailwind CSS,Vite"
+    },
+    {
       "name": "Mug Life Coffee",
       "live": "https://muglife.onrender.com/",
       "git": "https://github.com/rebeccaloaustin/mug-life-frontend",
