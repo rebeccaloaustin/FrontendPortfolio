@@ -3,7 +3,7 @@
       "name": "Notflix",
       "live": "https://notflix-d10a8.web.app/",
       "git": "https://github.com/rebeccaloaustin/Notflix",
-      "image": "https://imgur.com/FDckkVw",
+      "image": "https://i.imgur.com/FDckkVw.jpeg",
       "description": "This is a Netflix clone project built using React, JavaScript, Vite, Tailwind CSS, TMDB API, and Firebase for user authentication, database management, and hosting. Notflix aims to replicate some of the core functionalities of Netflix, allowing users to browse movies, view summaries, add movies to their favorites and watch later lists, and manage their lists. ",
       "tech": "React, Firebase, TMDB API: The Movie Database API for fetching movie data, Axios, React Icons, React Router DOM, React YouTube, Tailwind CSS,Vite"
     },
