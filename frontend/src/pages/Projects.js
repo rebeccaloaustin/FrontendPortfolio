@@ -45,7 +45,7 @@ function Projects(props) {
            
           </div>
         ))}
-       <div class="comingSoon"> More projects coming soon! I'm currently working on a netflix clone.</div> 
+       <div class="comingSoon"> More projects coming soon!</div> 
       </div>
     );
   };
