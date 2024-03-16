@@ -16,14 +16,6 @@
       "tech": "Frontend - React, React Router DOM, Bootstrap, SCSS, Stripe for payment processing Backend - Node.js with Express, MongoDB as the database, Mongoose for MongoDB object modeling, Bcrypt and Bcryptjs for password hashing, JSON Web Token for user authentication, Cors for handling Cross-Origin Resource Sharing, Body-parser for parsing incoming request bodies, Formidable for handling form data, and Validator for data validation."
     },
     {
-      "name": "Bon Bon Voyage Blog",
-      "live": "https://bon-bon-voyage-blog.onrender.com/",
-      "git": "https://github.com/rebeccaloaustin/Bon-Bon-Voyage-Blog",
-      "image": "https://i.imgur.com/z6Krgfq.jpeg",
-      "description": "This project is a full stack application designed to allow users to create, view, edit, and delete travel blog articles. Enjoy the array of articles featuring different countries/cities such as France, Italy, Japan, New York City, and so many more. Explore the World, One Bite at a Time: Where Adventure Meets Appetite in Every Corner!",
-      "tech": "Express, MongoDB, Mongoose ODM, Node.js, EJS, Dotenv, Bootstrap CDN"
-    },
-    {
       "name": "Frame of Mind",
       "live": "https://frame-of-mind.onrender.com/",
       "git": "https://github.com/rebeccaloaustin/frame-of-mind",
@@ -31,6 +23,15 @@
       "description": "Frame-of-Mind is an immersive Django web application designed to deepen your appreciation for art. Discover, explore, and engage with your favorite artists and artworks, allowing you to broaden your perspective and change your frame of mind. The application seamlessly integrates One-to-Many Relationships between artists and artworks, empowering users to curate their collections and delve into the captivating world of artistic expression.",
       "tech": "Django, Python, HTML, CSS"
     },
+    {
+      "name": "Bon Bon Voyage Blog",
+      "live": "https://bon-bon-voyage-blog.onrender.com/",
+      "git": "https://github.com/rebeccaloaustin/Bon-Bon-Voyage-Blog",
+      "image": "https://i.imgur.com/z6Krgfq.jpeg",
+      "description": "This project is a full stack application designed to allow users to create, view, edit, and delete travel blog articles. Enjoy the array of articles featuring different countries/cities such as France, Italy, Japan, New York City, and so many more. Explore the World, One Bite at a Time: Where Adventure Meets Appetite in Every Corner!",
+      "tech": "Express, MongoDB, Mongoose ODM, Node.js, EJS, Dotenv, Bootstrap CDN"
+    },
+    
     {
       "name": "Simon Game",
       "live": "https://github.com/rebeccaloaustin/Simon-Game-Project",
